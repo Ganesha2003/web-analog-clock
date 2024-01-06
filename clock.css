@@ -1,0 +1,71 @@
+#p1{
+    /* border:2px solid red; */
+    background: url(clock-face-with-roman-numerals-on-black-background-vector-20353510.jpg) no-repeat;
+    width: 40vw;
+    height: 40vw;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+    /* filter: blur(20px); */
+}
+#second{
+    width: 0.1vw;
+    height: 15vw;
+    background-color: red;
+    position:absolute;
+    left:50%;
+    top: 14%;
+    transform-origin: bottom;
+    /* transition-duration: 0.5s; */
+}
+#minute{
+    width: 0.3vw;
+    height: 13.2vw;
+    background-color: white;
+    position: absolute;
+    left:49.87%;
+    top:18.5%;
+    transform-origin: bottom;
+    border-radius: 10px;
+   /* display: none; */
+    
+}
+#hour{
+    width: 0.3vw;
+    height: 10vw;
+    background-color: rgb(23, 26, 228);
+    position: absolute;
+    left:49.7%;
+    top: 26.5%;
+    transform-origin: bottom;
+    border-radius: 10px;
+}
+body{
+    background-color: black;
+    filter:grayscale(100px);
+}
+#myphoto{
+    background: url("india-flag-round-shape-png.webp") no-repeat;
+    width: 2vw;
+    height: 2vw;
+    background-size: 100%;
+    margin: auto;
+    position: relative;
+    top: 47.5%;
+    border-top: 5px solid orangered;
+    border-bottom: 5px solid green;
+    border-right: 5px solid white;
+    border-left:5px solid white;
+    border-radius: 60px;
+}
+#ani{
+    animation: ani1 2s timing-function 2 6 direction fill-mode;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px red;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
